@@ -1,4 +1,4 @@
-import RootLayout, { metadata } from '@/app/layout';
+import RootLayout, { metadata, viewport } from '@/app/layout';
 import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
 
@@ -20,6 +20,26 @@ describe('RootLayout', () => {
   it('should have metadata', () => {
     expect(metadata).toEqual({
       description: 'Discover the Rick and Morty world',
+      icons: [{ rel: 'apple-touch-icon', url: 'logo.svg' }],
+      manifest: 'manifest.json',
+      keywords: [
+        'Rick and Morty',
+        'Characters',
+        'Episodes',
+        'Locations',
+        'Next.js',
+        'Material-UI',
+        'Cloudflare',
+        'Cloudflare Pages',
+      ],
+    });
+  });
+
+  it('should have viewport', () => {
+    expect(viewport).toEqual({
+      width: 'device-width',
+      initialScale: 1,
+      themeColor: 'black',
     });
   });
 });
