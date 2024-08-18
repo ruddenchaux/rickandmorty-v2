@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Characters should be rendered 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-1ivrwse"
+  >
+    <div
+      class="MuiGrid2-root MuiGrid2-container MuiGrid2-direction-xs-row css-1qfyfd4-MuiGrid2-root"
+    >
+      <div
+        class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-xs-12 MuiGrid2-grid-sm-6 MuiGrid2-grid-md-4 MuiGrid2-grid-lg-4 MuiGrid2-grid-xl-3 css-1axe0r2-MuiGrid2-root"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1fyw31w-MuiPaper-root-MuiCard-root"
+        >
+          <div
+            class="MuiCardMedia-root css-1sr3gul-MuiCardMedia-root"
+          >
+            <img
+              alt="Rick"
+              data-nimg="1"
+              decoding="async"
+              height="280"
+              loading="lazy"
+              src="/_next/image?url=https%3A%2F%2Frickandmortyapi.com%2Fapi%2Fcharacter%2Favatar%2F1.jpeg&w=640&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Frickandmortyapi.com%2Fapi%2Fcharacter%2Favatar%2F1.jpeg&w=384&q=75 1x, /_next/image?url=https%3A%2F%2Frickandmortyapi.com%2Fapi%2Fcharacter%2Favatar%2F1.jpeg&w=640&q=75 2x"
+              style="color: transparent;"
+              width="280"
+            />
+          </div>
+          <div
+            class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          >
+            <h2
+              class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+            >
+              Rick
+            </h2>
+            <span
+              class="MuiTypography-root MuiTypography-subtitle2 css-hav9kw-MuiTypography-root"
+            >
+              Alive
+               - 
+              Human
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid2-root MuiGrid2-direction-xs-row MuiGrid2-grid-xs-12 MuiGrid2-grid-sm-6 MuiGrid2-grid-md-4 MuiGrid2-grid-lg-4 MuiGrid2-grid-xl-3 css-1axe0r2-MuiGrid2-root"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1fyw31w-MuiPaper-root-MuiCard-root"
+        >
+          <div
+            class="MuiCardMedia-root css-1sr3gul-MuiCardMedia-root"
+          >
+            <img
+              alt="Morty"
+              data-nimg="1"
+              decoding="async"
+              height="280"
+              loading="lazy"
+              src="/_next/image?url=https%3A%2F%2Frickandmortyapi.com%2Fapi%2Fcharacter%2Favatar%2F2.jpeg&w=640&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Frickandmortyapi.com%2Fapi%2Fcharacter%2Favatar%2F2.jpeg&w=384&q=75 1x, /_next/image?url=https%3A%2F%2Frickandmortyapi.com%2Fapi%2Fcharacter%2Favatar%2F2.jpeg&w=640&q=75 2x"
+              style="color: transparent;"
+              width="280"
+            />
+          </div>
+          <div
+            class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          >
+            <h2
+              class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+            >
+              Morty
+            </h2>
+            <span
+              class="MuiTypography-root MuiTypography-subtitle2 css-hav9kw-MuiTypography-root"
+            >
+              Alive
+               - 
+              Human
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

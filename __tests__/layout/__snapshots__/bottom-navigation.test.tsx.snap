@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BottomNavigation should be rendered with all links 1`] = `
+<div>
+  <div
+    aria-label="Bottom navigation"
+    class="MuiBottomNavigation-root css-ksfhj9-MuiBottomNavigation-root"
+    role="navigation"
+  >
+    <a
+      class="MuiButtonBase-root MuiBottomNavigationAction-root Mui-selected css-1bjk3jo-MuiButtonBase-root-MuiBottomNavigationAction-root"
+      href="/"
+      tabindex="0"
+    >
+      <img />
+      <span
+        class="MuiBottomNavigationAction-label Mui-selected css-imwso6-MuiBottomNavigationAction-label"
+      >
+        Characters
+      </span>
+      <span
+        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+      />
+    </a>
+    <a
+      class="MuiButtonBase-root MuiBottomNavigationAction-root css-1bjk3jo-MuiButtonBase-root-MuiBottomNavigationAction-root"
+      href="/locations"
+      tabindex="0"
+    >
+      <img />
+      <span
+        class="MuiBottomNavigationAction-label css-imwso6-MuiBottomNavigationAction-label"
+      >
+        Locations
+      </span>
+      <span
+        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+      />
+    </a>
+  </div>
+</div>
+`;

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderTitle should be rendered the title based on the pathname 1`] = `
+<div>
+  <h1
+    class="MuiTypography-root MuiTypography-body1 css-1rpzg55-MuiTypography-root"
+  >
+    Rick and Morty - 
+    Title 1
+  </h1>
+</div>
+`;
+
+exports[`HeaderTitle should be rendered the title based on the pathname 2`] = `
+<div>
+  <h1
+    class="MuiTypography-root MuiTypography-body1 css-1rpzg55-MuiTypography-root"
+  >
+    Rick and Morty - 
+    Title 2
+  </h1>
+</div>
+`;
