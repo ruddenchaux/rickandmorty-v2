@@ -1,6 +1,7 @@
 import { AppBar, Box, Link, Toolbar } from '@mui/material';
 import NextLink from 'next/link';
 import HeaderLinkButton from './header-link-button';
+import HeaderSearch from './header-search';
 import HeaderTitle from './heder-title';
 import { itemsMenu } from './items-menu';
 import Logo from './logo';
@@ -20,6 +21,7 @@ export default function Header() {
 
         <HeaderTitle />
 
+        <HeaderSearch />
         <Box
           sx={{ display: { xs: 'none', md: 'flex' } }}
           component="nav"
